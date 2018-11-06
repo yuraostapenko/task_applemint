@@ -7,7 +7,7 @@ const List = ({state, del}) => {
         <div className='List'>
           {state.map(el => 
         <p onClick={del} id={el.id} key={el.id}>{el.name}</p> 
-        )} <button onClick={del}>delete</button> 
+        )}
         </div>
     );
 };
